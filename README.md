@@ -1,2 +1,2 @@
 # MySQL
-All query's I have make to a MySQL database
+All The Query's I Have Made To A MySQL Database.
