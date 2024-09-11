@@ -1,6 +1,41 @@
-# MySQL
-This repository contains all of the code I created in the Databases module which focused on the structured query language SQL. This module taught me to proramme in SQL, teaching me the fundamentals of this language and how to query databases.
+# Overview
+This repository contains SQL code relating to excercises I completed during my time learning the structured query language *SQL*.
+The SQL syntax that these queries follow is _mysql_ as these were written using MySQL Workbench.
 
-We covered all aspects of SQL including, selecting different information, aggregating data, grouping by certain columns, joining different tables, filtering using where clauses and doing nested queires.
+---
+# Data
+The completed excercises were based around three sample databases offered by MySQL Workbench, namely:
+- Sakila DVD rental database
+- Employees database
+- Classic Models database
 
-This repostiory contains the labs that I completed over the course of this module and the queries I developed within each lab session. For this lab work, I used MySQL Workbench to run my queiries. These queries were based upon the Sakila DVD rental sample databse, the sample Employees database and Classic Models sample database that MySQL offers.
+---
+# Folder Breakdown
+The files in this repo are divided based on the respective lab session of the module that they were completed in.
+Each lab session had a number of queries, revolving around a specific SQL concept, which needed to be run on the above named databases.
+
+### [Lab 2](Lab_02)
+This lab focused on the fundamentals of SQL and how to query a database.
+These queries include:
+- Selecting information from tables
+- Aggregating data
+- Grouping by columns
+- Filtering data using where clauses
+- Ordering resulting tables
+
+### [Lab 3](Lab_03)
+This lab expanded on the fundamentals and introduced more sophisticated SQL concepts.
+These queries include:
+- Joining tables
+- Nested queires
+- Limiting rows in the output table
+- Filtering groups using having clauses
+
+### [Lab 4](Lab_04) and [Lab 5](Lab_05)
+These labs dived deeper into the above named topics, using them to query the data in greater detail.
+These queries are more complicated and solve more convoluted problems.
+
+### [Mock Exam](Mock_Exam)
+This was a sample exam given as part of the module and covered a selection of problems one would expect to encounter when querying a database.
+These excercises range from easier to more complicated and also include:
+- Adding new records to a table
